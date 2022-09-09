@@ -1,25 +1,24 @@
 import React from 'react'
-
+import styled from "styled-components"
 function Section() {
   return (
     <wrap >
-      <div className="section-b" >
-       <div class="model-s">
+      
         <h1>Model S</h1>
         <p>Order Online for Touchless Delivery</p>
-        </div>
-        <div> 
-        <div className="button-page">
-        <button className="button-one">Customer Order</button>
-        <button className="button-two">Existing Inventory</button>
+      Customer Order
+      Existing Inventory
         
-        </div>
-        <div class="scroll-down"></div>
-        </div> 
-        </div>
+        
+        
     </wrap>
   )
 }
 
 export default Section
 
+const wrap = styled.div'
+
+
+
+ '
