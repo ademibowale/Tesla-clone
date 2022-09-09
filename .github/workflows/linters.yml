@@ -38,7 +38,7 @@ jobs:
   nodechecker:
     name: node_modules checker
     runs-on: ubuntu-18.04
-    steps:
+    steps:y
       - uses: actions/checkout@v2
       - name: Check node_modules existence
         run: |
