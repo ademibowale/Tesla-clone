@@ -46,7 +46,7 @@ function Home() {
        leftBtnText="Order Now"
        rightBtnText="Learn More"/> 
 
-<Section
+      <Section
        title="Accessories"
        
        backgroundImg="access_new.jpeg "
@@ -61,7 +61,14 @@ function Home() {
 export default Home
 
 const Container = styled.div`
- height:100vh
+ 
+
+  height:100vh
+  
+   
+
+
+ 
  
  
  ;`
