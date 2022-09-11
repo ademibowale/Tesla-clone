@@ -1,15 +1,20 @@
 import React from 'react'
 import styled from "styled-components"
+import Fade from 'react-reveal/Fade'
+
 
 function Section({title, description,leftBtnText, rightBtnText, backgroundImg  }) {
   return (
     <Wrap bgImage={backgroundImg}>
-      <ItemText>
+      <Fade bottom>
+          <ItemText>
         <h1>{title}</h1>
-        <p>{description}</p> 
-      </ItemText>
+        <p>{description}</p>
+          </ItemText>
+      </Fade> 
       <Buttons>
-      <ButtonGroup>
+        <Fade bottom>
+    <ButtonGroup>
 
       <LeftButton>
        {leftBtnText}
@@ -19,8 +24,8 @@ function Section({title, description,leftBtnText, rightBtnText, backgroundImg  }
        {rightBtnText }
       </RightButton>
         }
-      </ButtonGroup>
-      
+    </ButtonGroup>
+      </Fade>
       <DownArrow src="/images/arrow_doww.png"/>
                 
       </Buttons>
@@ -33,6 +38,7 @@ function Section({title, description,leftBtnText, rightBtnText, backgroundImg  }
 export default Section
 
 const Wrap = styled.div`
+z-index:10;
 height:100vh;
 width:100vw;
 background-image:url(./images/tesla_car.jpg);
@@ -44,6 +50,7 @@ flex-direction:column;
 justify-content:space-between; 
 align-items:center; 
 background-image:${props => `url("./images/${props.bgImage}")` }
+
 `
    const ItemText = styled.div`
    padding-top:15vh;
