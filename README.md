@@ -25,19 +25,19 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live demo](https://corona-virus-pandemic.netlify.app/)
+[Live demo](/)
 
 
 ## Loom Video
 
-Loom video- [watch](https://www.loom.com/share/b9a3779010c649cbb1c4a6c664f28c91)
+Loom video- [watch]()
 
 
 ### Clone this repository
 
 To clone the repo run:
 ```
-git clone https://github.com/ademibowale/Covid-19-tracker.git  
+git clone https://github.com/ademibowale/Tesla-clone.git  
 ```
 To access the cloned directory, run:
 ```
@@ -67,7 +67,7 @@ Run ```npm start```
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ademibowale/Covid-19-tracker/issues).
+Feel free to check the [issues page](https://github.com/ademibowale/Tesla-clone/issues).
 
 ## Show your support
 
@@ -75,7 +75,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+- Original design idea by [Tesla company](https://www.tesla.com).
 
 
 ## 📝 License
