@@ -31,7 +31,6 @@ To get a local copy up and running follow these simple example steps.
 
 Loom video- [watch]()
 
-
 ### Clone this repository
 
 To clone the repo run:
