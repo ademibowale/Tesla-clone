@@ -1,77 +1,72 @@
-# Tesla-clone App
-A Tesla made using REACT-REDUX as frontend technology. 
+# TESLA-APP
 
-> "TESLA App" is a car manufacturing company website that allows you to view everything about Tesla Products and services . It is builded using the Single Page App (SPA) structure that allows users to:
-
-    - See a list of all the available books.
+> This project is a web application for the Tesla Front-End app using React Redux. Fully scrollable Front-End Tesla shop app.
 
 ## Built With
 
-- HTML5
-- CSS3 
-- JavaScript
-- React
-- Linters
-- Redux
-- Style - Components.
+- HTML, CSS, Javascript.
+- Webpack.
+- Linters. 
+- React JS. 
+- React Router. 
+- Redux. 
+- React Reveal. 
+- Jest. 
+- Github Actions.
 
-## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-To get a local copy up and running follow these simple example steps:
+## Screenshot
+![screenshot](./public/images/model3.png)
+![screenshot](./public/images/modelX.png)
+![screenshot](./public/images/modelY.png)
+![screenshot](./public/images/tesla-app-gif.gif)
 
-- Select the link with the code on the https code tab in the repo.
-- Open a Terminal and write the command: 
-> `https://github.com/ademibowale/Tesla-clone.git`.
-- Enter in the folder `tesla-clone` and write the command:
-> `npm install`
-- After that, write the command:
-> `npm start`
-- You should see a live demo of the site.
+## Live Demo
 
-## Test
+[Live demo](/)
 
-- After cloning the project you need to run these commands
 
-  > `npm install`
-  > This command will download all the dependancies of the project
+## Loom Video
 
-As this project counts with html, css and javascript, you will need to test the following:
+Loom video- [watch]()
 
-- For tracking linter errors in HTML files run:
 
-  > `npx hint .`
+### Clone this repository
 
-- For tracking linter errors in CSS or SASS  files run:
+To clone the repo run:
+```
+git clone https://github.com/ademibowale/Tesla-clone.git  
+```
+To access the cloned directory, run:
+```
+cd covid-19-tracker
+```
 
-  > `npx stylelint "\*_/_.{css,scss}"`
+## Basic Setup
+### Install all dependencies
 
-- And for tracking linter errors in JavaScript files run:
+```
+npm install
+```
 
-  > `npx eslint .`
+### Deployment
 
-## Available Scripts for this project.
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Run ```npm start```
 
 ## Author
 
-👤 **ADEBOWALE ADEGBOYE**
+👤 **Ademibowale**
 
-- GitHub: [@ademibowale](https://github.com/ademibowale)
-
-
-[LiveDemo]()
+- GitHub: [ademibowale](https://github.com/ademibowale)
+- Twitter: [@Ademibowale]ttps://twitter.com/Ademibowale1)
+- LinkedIn: [tech-adebowale-adegboye](https://www.linkedin.com/in/tech-adebowale-adegboye/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ademibowale/Tesla-clone/issues).
 
 ## Show your support
 
@@ -79,9 +74,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by [Tesla company](https://www.tesla.com).
+
 
 ## 📝 License
 
