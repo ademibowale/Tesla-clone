@@ -1,46 +1,83 @@
-# Getting Started with Create React App and Redux
+# TESLA-APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+> This project is a web application for the Tesla Front-End app using React Redux. Fully scrollable Front-End Tesla shop app.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- HTML, CSS, Javascript.
+- Webpack.
+- Linters. 
+- React JS. 
+- React Router. 
+- Redux. 
+- React Reveal. 
+- Jest. 
+- Github Actions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get a local copy up and running follow these simple example steps.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshot
+![screenshot](./public/images/model3.png)
+![screenshot](./public/images/modelX.png)
+![screenshot](./public/images/modelY.png)
+![screenshot](./public/images/tesla-app-gif.gif)
 
-### `npm test`
+## Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Live demo](https://corona-virus-pandemic.netlify.app/)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Loom Video
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Loom video- [watch](https://www.loom.com/share/b9a3779010c649cbb1c4a6c664f28c91)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Clone this repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To clone the repo run:
+```
+git clone https://github.com/ademibowale/Covid-19-tracker.git  
+```
+To access the cloned directory, run:
+```
+cd covid-19-tracker
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Basic Setup
+### Install all dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Deployment
 
-## Learn More
+Run ```npm start```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **Ademibowale**
+
+- GitHub: [ademibowale](https://github.com/ademibowale)
+- Twitter: [@Ademibowale]ttps://twitter.com/Ademibowale1)
+- LinkedIn: [tech-adebowale-adegboye](https://www.linkedin.com/in/tech-adebowale-adegboye/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ademibowale/Covid-19-tracker/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
