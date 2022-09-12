@@ -18,14 +18,16 @@ To get a local copy up and running follow these simple example steps.
 
 ## Screenshot
 ![screenshot](./public/images/model3.png)
+
 ![screenshot](./public/images/modelX.png)
+
 ![screenshot](./public/images/modelY.png)
+
 ![screenshot](./public/images/tesla-app-gif.gif)
 
 ## Live Demo
 
 [Live demo](/)
-
 
 ## Loom Video
 
