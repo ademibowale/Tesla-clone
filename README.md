@@ -2,7 +2,6 @@
 
 > This project is a web application for the Tesla Front-End app using React Redux. Fully scrollable Front-End Tesla shop app.
 
-
 ## Built With
 
 - HTML, CSS, Javascript.

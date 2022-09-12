@@ -19,7 +19,7 @@ function Header() {
         <img src="/images/tesla_logomi.png" alt="" height="70px " width="150px" />
       </a>
       <Menu>
-        {cars && cars.map((car, thing) => (
+        {cars && cars.map((car, cars) => (
           <a key={cars.id} href="#">{car}</a>
 
         ))}
