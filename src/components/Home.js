@@ -58,7 +58,6 @@ function Home() {
         leftBtnText="Order Now"
       />
 
-
     </Container>
   );
 }
@@ -69,11 +68,4 @@ const Container = styled.div`
  
 
   height:100vh
-  
-   
-
-
- 
- 
- 
  ;`;

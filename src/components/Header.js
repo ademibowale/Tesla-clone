@@ -8,7 +8,6 @@ import CloseIcon from '@material-ui/icons/Close';
 import { useSelector } from 'react-redux';
 import { selectCars } from '../features/car/carSlice';
 
-
 function Header() {
   const [burgerStatus, setBurgerStatus] = useState(false);
   const cars = useSelector(selectCars);
@@ -23,7 +22,6 @@ function Header() {
           <a key={cars.id} href="#">{car}</a>
 
         ))}
-
 
       </Menu>
       <RightMenu>
@@ -113,7 +111,7 @@ const BurgerNav = styled.div`
    display:flex;
    flex-direction:column;
    text-align:start;
-   transform:${props => (props.show ? 'translateX(0)' : 'translateX(100%)')};
+   transform:${(props) => (props.show ? 'translateX(0)' : 'translateX(100%)')};
    transition:transform 0.2s;
    li{
       padding:15px 0;

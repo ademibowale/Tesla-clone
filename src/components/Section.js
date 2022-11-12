@@ -3,7 +3,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
 
-
 function Section({
   title, description, leftBtnText, rightBtnText, backgroundImg,
 }) {
@@ -27,15 +26,13 @@ function Section({
       <RightButton>
         {rightBtnText }
       </RightButton>
-      )
-        }
+      )}
           </ButtonGroup>
         </Fade>
         <DownArrow src="/images/arrow_doww.png" />
 
       </Buttons>
     </Wrap>
-
 
   );
 }
@@ -54,9 +51,9 @@ display:flex;
 flex-direction:column;
 justify-content:space-between; 
 align-items:center; 
-background-image:${props => `url("./images/${props.bgImage}")`}
-
+background-image:${(props) => `url("./images/${props.bgImage}")`}
 `;
+
 const ItemText = styled.div`
    padding-top:15vh;
    text-alight:center;
