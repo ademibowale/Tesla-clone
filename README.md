@@ -27,11 +27,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live demo](/)
+[Live demo](https://tesla-clone-ey2n-lczk9quc6-ademibowale.vercel.app/)
 
-## Loom Video
 
-Loom video- [watch]()
 
 ### Clone this repository
 
